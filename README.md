@@ -1,2 +1,2 @@
-# codingground
-Main Repository for Coding Ground
+# elang jp
+Main Repository for Erlang learning ground
