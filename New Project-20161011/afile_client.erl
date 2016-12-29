@@ -1,6 +1,6 @@
 -module(afile_client).
 -export([ls/1,get_file/2]).
-ls(Server) ->o
+ls(Server) ->
     Server ! {self(), list_dir},
     receive
         {Server, FileList} ->
