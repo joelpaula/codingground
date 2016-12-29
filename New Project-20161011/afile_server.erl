@@ -10,4 +10,4 @@ loop(Dir) ->
       Full = filename:join(Dir, File),        
       Client ! {self(), file:read_file_info(Full)}    
   end,    
-  loop(dir).
+  loop(Dir).
